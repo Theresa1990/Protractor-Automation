@@ -2,7 +2,7 @@ import { browser,element,by,WebElement,protractor } from "protractor"
 import {  SignupPage } from "../Pages/Signuppage"
 
 let signup=new SignupPage();
-describe('signup',async function(){
+describe('sign-up',async function(){
     it('signup',async function(){
         //browser.waitForAngularEnabled(true)
        browser.get("https://www.delta.com/apac/en")
