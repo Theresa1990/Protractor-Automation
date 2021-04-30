@@ -1,0 +1,24 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "Test automation",
+  "main": "index.js",
+  "dependencies": {
+    "@types/jasmine": "^3.6.10",
+    "@types/node": "^15.0.1",
+    "jasmine": "^3.7.0",
+    "mocha": "^8.3.2",
+    "protractor": "^7.0.0",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4",
+    "webdriver-manager": "^12.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webdriver":"webdriver-manager update",
+    "E2E":"tsc -p E2E/tsconfig.json && protractor E2E/conf.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
